@@ -1,6 +1,6 @@
 import { Program, CoreValue, LearningMethod, Facility, GalleryItem, WaveSchedule, FAQItem } from '../types';
 
-import heroImg from '../assets/images/hero_pesantren_kautsar_1792641254554.jpg';
+import heroImg from '../assets/images/hero_gedung_telaga_alkautsar.jpg';
 import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg';
 import tahfidzOutdoorImg from '../assets/images/santri_tahfidz_outdoor.jpg';
 import codingImg from '../assets/images/santri_coding_robotics_team.jpg';

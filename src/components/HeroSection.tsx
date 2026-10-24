@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, ChevronDown, CheckCircle2, MapPin, Calendar, Sparkles } from 'lucide-react';
-import heroImg from '../assets/images/hero_pesantren_kautsar_1792641254554.jpg';
+import heroImg from '../assets/images/hero_gedung_telaga_alkautsar.jpg';
 import logoImg from '../assets/logo-telaga-alkautsar.png';
 import { IslamicPattern } from './IslamicPattern';
 
