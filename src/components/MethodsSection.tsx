@@ -1,7 +1,7 @@
 import React from 'react';
 import { LEARNING_METHODS } from '../data/schoolData';
 import roboticsMethodImg from '../assets/images/santri_robotics_assembly_method.jpg';
-import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg';
+import talaqqiMethodImg from '../assets/images/santri_talaqqi_halaqah_method.jpg';
 
 export const MethodsSection: React.FC = () => {
   return (
@@ -68,7 +68,7 @@ export const MethodsSection: React.FC = () => {
 
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200 aspect-16/9">
               <img
-                src={tahfidzImg}
+                src={talaqqiMethodImg}
                 alt="Pembiasaan Karakter dan Tahfidz Al-Qur'an"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
