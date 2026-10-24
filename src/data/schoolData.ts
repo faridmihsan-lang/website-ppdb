@@ -3,7 +3,7 @@ import { Program, CoreValue, LearningMethod, Facility, GalleryItem, WaveSchedule
 import heroImg from '../assets/images/hero_pesantren_kautsar_1792641254554.jpg';
 import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg';
 import tahfidzOutdoorImg from '../assets/images/santri_tahfidz_outdoor.jpg';
-import codingImg from '../assets/images/santri_coding_robotics_1792641256047.jpg';
+import codingImg from '../assets/images/santri_coding_robotics_team.jpg';
 import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg';
 
 export const INSTITUTION_INFO = {
@@ -89,6 +89,7 @@ export const PROGRAMS: Program[] = [
     description: "Mengenalkan logika komputasi, pemrograman, kreativitas, dan pemecahan masalah melalui kegiatan teknologi yang menarik.",
     iconName: "Cpu",
     image: codingImg,
+    imagePosition: "center 58%",
     highlights: [
       "Dasar pemrograman visual & logika komputasional untuk tingkat SMP",
       "Praktik perakitan kit robotika dan sensorik terapan",
