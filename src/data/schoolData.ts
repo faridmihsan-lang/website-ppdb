@@ -6,6 +6,7 @@ import tahfidzOutdoorImg from '../assets/images/santri_tahfidz_outdoor.jpg';
 import codingImg from '../assets/images/santri_coding_robotics_team.jpg';
 import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg';
 import englishImg from '../assets/images/santri_english_class.jpg';
+import halaqahTahfidzGaleriImg from '../assets/images/santri_halaqah_tahfidz_galeri.jpg';
 
 export const INSTITUTION_INFO = {
   name: "Pesantren Tahfidz Telaga Al Kautsar",
@@ -228,8 +229,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Halaqah Tahfidz Al-Qur'an Santri",
     category: "tahfidz",
     categoryLabel: "Kegiatan Tahfidz",
-    image: tahfidzImg,
-    caption: "Santri menyimak dan menyetorkan hafalan Al-Qur'an dengan bimbingan ustadz di ruang yang tenang dan sunlit."
+    image: halaqahTahfidzGaleriImg,
+    caption: "Suasana halaqah talaqqi dan muroja'ah hafalan Al-Qur'an santri secara intensif di musala pesantren."
   },
   {
     id: "gal-2",
