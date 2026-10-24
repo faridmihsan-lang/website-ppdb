@@ -8,6 +8,7 @@ import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg
 import englishImg from '../assets/images/santri_english_class.jpg';
 import halaqahTahfidzGaleriImg from '../assets/images/santri_halaqah_tahfidz_galeri.jpg';
 import sainsEksperimenImg from '../assets/images/santri_sains_eksperimen_galeri.jpg';
+import murajaahBalkonImg from '../assets/images/santri_murajaah_balkon_galeri.jpg';
 
 export const INSTITUTION_INFO = {
   name: "Pesantren Tahfidz Telaga Al Kautsar",
@@ -262,8 +263,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Sesi Muraja'ah Harian & Adab Qur'ani",
     category: "tahfidz",
     categoryLabel: "Kegiatan Tahfidz",
-    image: tahfidzImg,
-    caption: "Konsistensi santri dalam menjaga hafalan Al-Qur'an secara tartil dan berkesinambungan."
+    image: murajaahBalkonImg,
+    caption: "Kekhusyukan santri membaca dan muraja'ah Al-Qur'an di balkon pesantren dengan pemandangan alam perbukitan Pacet yang asri."
   },
   {
     id: "gal-6",
