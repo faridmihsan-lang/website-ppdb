@@ -1,6 +1,6 @@
 import React from 'react';
 import { LEARNING_METHODS } from '../data/schoolData';
-import codingImg from '../assets/images/santri_coding_robotics_1792641256047.jpg';
+import roboticsMethodImg from '../assets/images/santri_robotics_assembly_method.jpg';
 import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg';
 
 export const MethodsSection: React.FC = () => {
@@ -54,7 +54,7 @@ export const MethodsSection: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200 aspect-4/3">
               <img
-                src={codingImg}
+                src={roboticsMethodImg}
                 alt="Praktik dan Proyek Santri di Lab Komputer"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
