@@ -1,0 +1,6 @@
+{
+  "name": "Pesantren Tahfidz Telaga Al Kautsar",
+  "description": "Website resmi landing page dan informasi PPDB Pesantren Tahfidz Telaga Al Kautsar Cianjur: Pendidikan Al-Qur'an, Karakter Kepemimpinan, dan Teknologi Coding & Robotik.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
