@@ -18,10 +18,11 @@ export const ProgramModal: React.FC<ProgramModalProps> = ({ program, onClose, on
         aria-labelledby="modal-title"
       >
         {/* Header with image */}
-        <div className="relative h-48 bg-slate-900 shrink-0">
+        <div className="relative h-56 sm:h-64 bg-slate-900 shrink-0">
           <img
             src={program.image}
             alt={program.title}
+            style={program.imagePosition ? { objectPosition: program.imagePosition } : undefined}
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />

@@ -3,7 +3,7 @@ import { Program, CoreValue, LearningMethod, Facility, GalleryItem, WaveSchedule
 import heroImg from '../assets/images/hero_pesantren_kautsar_1792641254554.jpg';
 import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg';
 import codingImg from '../assets/images/santri_coding_robotics_1792641256047.jpg';
-import leadershipImg from '../assets/images/santri_leadership_team_1792641257127.jpg';
+import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg';
 
 export const INSTITUTION_INFO = {
   name: "Pesantren Tahfidz Telaga Al Kautsar",
@@ -71,6 +71,7 @@ export const PROGRAMS: Program[] = [
     description: "Mengembangkan kepercayaan diri, komunikasi, tanggung jawab, kerja sama, dan kemampuan mengambil keputusan.",
     iconName: "Award",
     image: leadershipImg,
+    imagePosition: "center 28%",
     highlights: [
       "Pelatihan public speaking dan komunikasi persuasif",
       "Simulasi pemecahan masalah dan kepemimpinan tim (organisasi santri)",

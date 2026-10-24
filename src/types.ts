@@ -5,6 +5,7 @@ export interface Program {
   description: string;
   iconName: string;
   image: string;
+  imagePosition?: string;
   highlights: string[];
   focusAreas: string[];
 }

@@ -65,10 +65,11 @@ export const ProgramsSection: React.FC<ProgramsSectionProps> = ({ onOpenPPDB }) 
             >
               <div>
                 {/* Photo container with smooth hover zoom */}
-                <div className="relative h-56 sm:h-64 overflow-hidden bg-slate-100">
+                <div className="relative h-60 sm:h-72 overflow-hidden bg-slate-100">
                   <img
                     src={prog.image}
                     alt={prog.title}
+                    style={prog.imagePosition ? { objectPosition: prog.imagePosition } : undefined}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
                   />
