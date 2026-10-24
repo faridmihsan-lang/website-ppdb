@@ -7,6 +7,7 @@ import codingImg from '../assets/images/santri_coding_robotics_team.jpg';
 import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg';
 import englishImg from '../assets/images/santri_english_class.jpg';
 import halaqahTahfidzGaleriImg from '../assets/images/santri_halaqah_tahfidz_galeri.jpg';
+import sainsEksperimenImg from '../assets/images/santri_sains_eksperimen_galeri.jpg';
 
 export const INSTITUTION_INFO = {
   name: "Pesantren Tahfidz Telaga Al Kautsar",
@@ -269,8 +270,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "Eksplorasi Proyek Sains & Logika Terapan",
     category: "pembelajaran",
     categoryLabel: "Kegiatan Pembelajaran",
-    image: codingImg,
-    caption: "Pembelajaran aktif berbasis proyek yang merangsang daya nalar kritis dan pemecahan masalah."
+    image: sainsEksperimenImg,
+    caption: "Santri bereksperimen kimia dengan antusias, mengasah daya nalar kritis dan pemecahan masalah secara langsung."
   }
 ];
 
