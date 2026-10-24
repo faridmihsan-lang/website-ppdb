@@ -5,6 +5,7 @@ import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg'
 import tahfidzOutdoorImg from '../assets/images/santri_tahfidz_outdoor.jpg';
 import codingImg from '../assets/images/santri_coding_robotics_team.jpg';
 import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg';
+import englishImg from '../assets/images/santri_english_class.jpg';
 
 export const INSTITUTION_INFO = {
   name: "Pesantren Tahfidz Telaga Al Kautsar",
@@ -104,7 +105,8 @@ export const PROGRAMS: Program[] = [
     tagline: "Jendela Komunikasi Global",
     description: "Mengembangkan kemampuan berkomunikasi dalam bahasa Inggris melalui latihan dan pembelajaran yang terstruktur.",
     iconName: "Globe",
-    image: tahfidzImg, // Clean high quality photo
+    image: englishImg,
+    imagePosition: "center 46%",
     highlights: [
       "Latihan percakapan harian (daily spoken English) santri",
       "Peningkatan kosakata bertahap dan pemahaman tata bahasa komunikatif",
