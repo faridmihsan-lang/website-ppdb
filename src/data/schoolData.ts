@@ -2,6 +2,7 @@ import { Program, CoreValue, LearningMethod, Facility, GalleryItem, WaveSchedule
 
 import heroImg from '../assets/images/hero_pesantren_kautsar_1792641254554.jpg';
 import tahfidzImg from '../assets/images/tahfidz_santri_quran_1792641255849.jpg';
+import tahfidzOutdoorImg from '../assets/images/santri_tahfidz_outdoor.jpg';
 import codingImg from '../assets/images/santri_coding_robotics_1792641256047.jpg';
 import leadershipImg from '../assets/images/santri_leadership_surken_cropped.jpg';
 
@@ -55,7 +56,8 @@ export const PROGRAMS: Program[] = [
     tagline: "Fondasi Hati dan Akhlak Mulia",
     description: "Membimbing santri dalam menghafal, menjaga, dan mencintai Al-Qur'an melalui pembelajaran yang terarah.",
     iconName: "BookOpen",
-    image: tahfidzImg,
+    image: tahfidzOutdoorImg,
+    imagePosition: "center 68%",
     highlights: [
       "Bimbingan talaqqi dan sanad bacaan yang tartil",
       "Sistem muraja'ah berkala untuk menjaga kemutqinan hafalan",
